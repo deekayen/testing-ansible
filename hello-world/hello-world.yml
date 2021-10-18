@@ -1,0 +1,11 @@
+- hosts: all
+  become : FALSE
+
+  tasks:
+
+ # Print a simple message.
+    - debug:
+         msg: Hello world!    
+
+
+
