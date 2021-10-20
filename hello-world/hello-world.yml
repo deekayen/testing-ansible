@@ -1,11 +1,14 @@
 - hosts: all
   become : FALSE
-
+  
   tasks:
-
+  
  # Print a simple message.
-    - debug:
-         msg: Hello world!    
-
-
+    - local_action: 
+        module: shell
+        cmd: echo "Hello world!"
+      ignore_errors: Yes
+      register: StdOut
+      when: "{{ansible_check_mode != ''}}"
+      
 
