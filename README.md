@@ -6,6 +6,22 @@ Some of the playbooks and examples intentionally sneer at the formatting guideli
 
 ## Table of Contents
 
+### Chapter 1
+
+  - [`ansible_managed`](ansible_managed/): An example of how to use the `ansible_managed` magic variable to remind sysadmins which files are managed by Ansible.
+
 ### Chapter: Introduction to ansible-lint
 
   - [`hello-world`](hello-world/): A starter playbook to break a lot of formatting standards.
+
+## Issues
+
+Submit your improvements and errata to the [GitHub issue queue](https://github.com/deekayen/testing-ansible/issues)
+
+## License
+
+You are free to copy, modify, and distribute this `ansible_managed` example with attribution under the terms of the BSD-3-Clause license. See the LICENSE file for details.
+
+## About the author
+
+This project was created by [David Norman](https://dkn.me) as an example for [Testing Ansible](https://testingansible.rocks).

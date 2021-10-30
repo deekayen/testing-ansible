@@ -1,0 +1,14 @@
+---
+
+# Created by David Norman (deekayen) as an example for Testing Ansible.
+
+- hosts: all
+  become: false
+  connection: local
+
+  tasks:
+    - name: Copy the template to parse ansible_managed.
+      template:
+        src: templates/hello_world.txt.j2
+        dest: "{{ ansible_env.HOME }}/hello_world.txt"
+        force: no

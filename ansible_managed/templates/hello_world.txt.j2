@@ -1,0 +1,17 @@
+Plain hash:
+{{ ansible_managed | comment }}
+
+C/PHP:
+{{ ansible_managed | comment('c') }}
+
+C block/PHP:
+{{ ansible_managed | comment('cblock') }}
+
+Erlang:
+{{ ansible_managed | comment('erlang') }}
+
+XML/HTML:
+{{ ansible_managed | comment('xml') }}
+
+Customized:
+{{ ansible_managed | comment('plain', prefix='###\n#', postfix='#\n###') }}
