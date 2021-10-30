@@ -179,7 +179,7 @@ Customized:
 
 ## Issues
 
-Submit your improvements and errata to the [GitHub issue queue](https://github.com/deekayen/testing-ansible/issues)
+Submit your improvements and errata to the [GitHub issue queue](https://github.com/deekayen/testing-ansible/issues).
 
 ## License
 
