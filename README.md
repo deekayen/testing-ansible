@@ -20,7 +20,7 @@ Submit your improvements and errata to the [GitHub issue queue](https://github.c
 
 ## License
 
-You are free to copy, modify, and distribute this `ansible_managed` example with attribution under the terms of the BSD-3-Clause license. See the LICENSE file for details.
+You are free to copy, modify, and distribute these Ansible examples with attribution under the terms of the BSD-3-Clause license. See the LICENSE file for details.
 
 ## About the author
 
