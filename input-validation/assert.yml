@@ -1,0 +1,14 @@
+---
+
+- hosts: all
+  connection: local
+
+  tasks:
+    - name: Assert terminate ends with an integer.
+      assert:
+        that:
+          - terminate is defined
+          - terminate | regex_search('[0-9]+$')
+        fail_msg: "'terminate' must be defined at runtime"
+        success_msg: "'terminate' is a valid hostname"
+        quiet: yes

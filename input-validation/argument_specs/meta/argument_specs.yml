@@ -1,0 +1,12 @@
+---
+
+argument_specs:
+  main:
+    short_description: "Argument specs demo"
+    description: "Demonstrate defining expected arguments to a role."
+    author: David Norman
+    options:
+      terminate:
+        required: true
+        type: "str"
+        description: "A virtual machine hostname string ending with an integer."

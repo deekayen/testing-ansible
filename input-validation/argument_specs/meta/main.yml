@@ -1,0 +1,19 @@
+---
+
+galaxy_info:
+  author: David Norman
+  namespace: deekayen
+  role_name: argument_specs
+  description: Demonstrate argument_specs for input validation.
+  license: BSD-3-Clause
+  min_ansible_version: 2.11
+
+  platforms:
+    - name: GenericLinux
+      versions:
+        - all
+
+  galaxy_tags:
+    - demo
+
+dependencies: []

@@ -1,0 +1,9 @@
+---
+
+- name: Print value of 'terminate'.
+  debug:
+    var: terminate
+
+- name: Placeholder for terminating a virtual machine.
+  debug:
+    msg: "This placeholder task would have terminated a virtual machine."
